@@ -1,6 +1,6 @@
 ﻿using Unity.Entities;
 
-namespace Components
+namespace Components.Player
 {
     [GenerateAuthoringComponent]
     public struct PlayerMovementData : IComponentData

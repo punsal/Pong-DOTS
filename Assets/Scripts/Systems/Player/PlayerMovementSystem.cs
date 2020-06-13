@@ -1,10 +1,10 @@
-﻿using Components;
+﻿using Components.Player;
 using Unity.Entities;
 using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 
-namespace Systems
+namespace Systems.Player
 {
     [AlwaysSynchronizeSystem]
     public class PlayerMovementSystem : JobComponentSystem

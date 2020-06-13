@@ -1,10 +1,9 @@
-﻿using Components;
+﻿using Components.Player;
 using Unity.Entities;
 using Unity.Jobs;
-using Unity.Rendering;
 using UnityEngine;
 
-namespace Systems
+namespace Systems.Player
 {
     [AlwaysSynchronizeSystem]
     public class PlayerInputSystem : JobComponentSystem

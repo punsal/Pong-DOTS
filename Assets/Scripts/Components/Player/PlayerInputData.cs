@@ -1,7 +1,7 @@
 ﻿using Unity.Entities;
 using UnityEngine;
 
-namespace Components
+namespace Components.Player
 {
     [GenerateAuthoringComponent]
     public struct PlayerInputData : IComponentData

@@ -8,13 +8,25 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Components" t="Include">
-            <e p="PlayerInputData.cs" t="Include" />
-            <e p="PlayerMovementData.cs" t="Include" />
+            <e p="Ball" t="Include">
+              <e p="BallTag.cs" t="Include" />
+              <e p="IncreaseFactorPerSecondData.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerInputData.cs" t="Include" />
+              <e p="PlayerMovementData.cs" t="Include" />
+            </e>
           </e>
           <e p="GameManager.cs" t="Include" />
           <e p="Systems" t="Include">
-            <e p="PlayerInputSystem.cs" t="Include" />
-            <e p="PlayerMovementSystem.cs" t="Include" />
+            <e p="Ball" t="Include">
+              <e p="CheckScoreSystem.cs" t="Include" />
+              <e p="SpeedIncreasePerSecondSystem.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerInputSystem.cs" t="Include" />
+              <e p="PlayerMovementSystem.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="TextMesh Pro" t="Include">
