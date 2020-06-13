@@ -11,32 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f47ab56-4266-4b5f-9bf3-a4ccdecd9b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Ball.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Ball/BallTag.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Ball/BallTag.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Ball/IncreaseFactorPerSecondData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Ball/IncreaseFactorPerSecondData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Ball.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/CheckScoreSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/CheckScoreSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/SpeedIncreasePerSecondSystem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/SpeedIncreasePerSecondSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong-DOTS/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong-DOTS/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Ball.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Pong-DOTS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Pong-DOTS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Physics Materials/Bouncy.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Physics Materials/Bouncy.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Wall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PlayerInputData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Player/PlayerInputData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PlayerInputData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Player/PlayerInputData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PlayerMovementData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Player/PlayerMovementData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/PlayerMovementData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Player/PlayerMovementData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerInputSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerMovementSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerMovementSystem.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +34,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Ball/SpeedIncreasePerSecondSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Physics Materials/Bouncy.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Systems/Player/PlayerMovementSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Ball.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Ball/BallTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Components/Player/PlayerMovementData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +45,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/PlayerInputData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerInputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/PlayerMovementSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Ball/BallSpeedData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Ball/IncreaseValuePerSecondData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Components/Ball/BallTag.cs" />
@@ -74,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Systems/Ball/SpeedIncreasePerSecondSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/SpeedIncreasePerSecondSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Ball/CheckScoreSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -124,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592000144042</updated>
-      <workItem from="1592000157895" duration="9711000" />
+      <workItem from="1592000157895" duration="11859000" />
     </task>
     <task id="LOCAL-00001" summary="Player Movement with Components &amp; Systems">
       <created>1592005998590</created>
@@ -133,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592005998590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ball Movement System &amp; Score Detection">
+      <created>1592055804012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592055804012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +143,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Player Movement with Components &amp; Systems" />
-    <option name="LAST_COMMIT_MESSAGE" value="Player Movement with Components &amp; Systems" />
+    <MESSAGE value="Ball Movement System &amp; Score Detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ball Movement System &amp; Score Detection" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1592057560347">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1592057560347" />
   </component>
 </project>

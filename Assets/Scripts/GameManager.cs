@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using TMPro;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,8 +22,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI mainText;
     public TextMeshProUGUI[] playerTexts;
 
+    private EntityManager entityManager;
+    private BlobAssetStore blobAssetStore;
+    
     private Entity ballEntityPrefab;
-    private EntityManager manager;
 
     private WaitForSeconds oneSecond;
     private WaitForSeconds delay;
@@ -37,10 +41,22 @@ public class GameManager : MonoBehaviour
         Instance = this;
         playerScores = new int[2];
 
+        entityManager = World.DefaultGameObjectInjectionWorld.EntityManager;
+        blobAssetStore = new BlobAssetStore();
+
+        var settings = GameObjectConversionSettings.FromWorld(World.DefaultGameObjectInjectionWorld, blobAssetStore);
+        ballEntityPrefab = GameObjectConversionUtility.ConvertGameObjectHierarchy(ballPrefab, settings);
+        
+
         oneSecond = new WaitForSeconds(1f);
         delay = new WaitForSeconds(respawnDelay);
 
         StartCoroutine(CountdownAndSpawnBall());
+    }
+
+    private void OnDisable()
+    {
+        blobAssetStore.Dispose();
     }
 
     public void PlayerScored(int playerID)
@@ -73,6 +89,20 @@ public class GameManager : MonoBehaviour
 
     void SpawnBall()
     {
+        var ball = entityManager.Instantiate(ballEntityPrefab);
         
+        var dir = new Vector3(
+            Random.Range(0, 2) == 0 ? -1f : 1f,
+            Random.Range(-0.5f, 0.5f),
+            0f).normalized;
+        var speed = dir * ballSpeed;
+        
+        var velocity = new PhysicsVelocity()
+        {
+            Linear = speed,
+            Angular = float3.zero
+        };
+
+        entityManager.AddComponentData(ball, velocity);
     }
 }
